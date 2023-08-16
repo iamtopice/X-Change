@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X - Change</title>
+    <link rel="stylesheet" href="signup.style.css">
+</head>
+<body>
+    
+
+    <div class="heading">
+        <img src="resources/images/X - Change Logo No BG.png" alt="X - Change Logo" class="logo" ><!-- logo color=CBB26A -->
+    </div>
+
+    <h2>Sign Up</h2>
+
+    <form name="signin" class="form" action="process-signup.php" method="post" netlify-honeypot="bot-field" data-netlify="false">
+        <label for="firstname">First name</label>
+        
+        <input
+        name="firstname"
+        id="firstname"
+        type="text"
+        placeholder="E.g John"
+        required>
+
+        <label for="lastname">Last name</label>
+        
+        <input
+        name="lastname"
+        id="lastname"
+        type="text"
+        placeholder="E.g Williams"
+        required>
+
+        <label for="email">Email</label>
+        
+        <input
+        name="email"
+        id="email"
+        type="email"
+        placeholder="E.g example@email.com"
+        required>
+
+        <label for="password">Enter password</label>
+        
+        <input
+        name="password"
+        id="password"
+        type="password"
+        placeholder="Enter password"
+        required>
+
+        <label for="password">Confirm password</label>
+        
+        <input
+        name="confirmpassword"
+        id="confirmpassword"
+        type="password"
+        placeholder="Confirm password"
+        required>
+
+        <button class="submit" type="submit">NEXT</button>
+    </form>
+
+    
+    <p>Already have an account?<a href="index.html"> Sign In</a></p>
+
+
+</body>
+</html>
